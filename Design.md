@@ -4,12 +4,13 @@ This is the modeling section that hold the system functionalities in a diagramma
 
 ### FLOW CHART FOR ADMINISTRATION TO ADD A NEW PRODUCT
 
-[[DESIGN/FlowChart.png]]
+![DESIGN/FlowChart.png](Design/FlowChart.png)
+
 _Figure ii Flow chart for administration to add a new product_
 
 ### BUSINESS SYSTEM FLOW/ FLOW CHART FOR CUSTOMER REGISTRATION
 
-[[DESIGN/BussinessFlowDiagram.png]]
+![DESIGN/BusinessFlowDiagram.png](Design/BusinessFlowDiagram.png)
 _Figure iii Flow chart for customer registration_
 
 ## Data flow
@@ -18,7 +19,7 @@ This shows how data starts to flows (circulated) from supermarket to users and v
 
 ### GROCERIES WEB APPLICATION DATA FLOW
 
-[[DESIGN/DFD.png]]
+![DESIGN/DFD.png](Design/DFD.png)
 _Figure iv Groceries web application data flow_
 
 So a client makes an order via the groceries web application, then the order is sent to the supermarket technician and store in the database.
@@ -33,7 +34,7 @@ This show the entities of groceries web application alongside their attributes a
 
 ### ENTITY RELATIONAL DIAGRAM GROCERIES WEB APPLICATION
 
-[[DESIGN/ERD.png]]
+![DESIGN/ERD.png](Design/ERD.png)
 _Figure v Entity relational diagram groceries web application_
 
 This is most effectively used to represent the tables that are going to be used in groceries web application.
