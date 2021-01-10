@@ -1,5 +1,5 @@
 **TASKS.**
-1. 	**PROJECT PLANNING.**
+**1. 	PROJECT PLANNING.**
 
 **SUB TASKS.**
 * Project proposal
