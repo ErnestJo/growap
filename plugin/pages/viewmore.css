@@ -1,0 +1,16 @@
+#prod_body{
+    margin-top: 50px;
+}
+
+.products h4{
+    margin-bottom:10px;
+}
+
+.products .card .card_box .details  {
+    height: 85px;
+    overflow: hidden;
+}
+.products .card{
+}
+
+

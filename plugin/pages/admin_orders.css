@@ -1,0 +1,94 @@
+.badge{
+    top: -10px;
+    position: relative;
+    letter-spacing: normal;
+}
+/*height styles*/
+#dash{
+    height: 100vh;
+    overflow: hidden;
+}
+#menu{
+    height: 90vh;
+    margin-top: 65px;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+#menu .side_menu{
+    color: #222;
+    height: 91vh;
+    overflow: hidden;
+    background-color: #ccc;
+    box-shadow: 0px 0px 10px #333;
+}
+#dash .body{
+    height: 91vh;
+    overflow: auto;
+    margin-top: 65px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #333;
+}
+
+/*menu styles*/
+#menu .side_menu ul{
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+#menu .side_menu ul li a{
+    color: #222;
+    padding: 15px;
+    display: block;
+    cursor: pointer;
+    font-size: 15px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 1px solid #aaa;
+    transition: linear color 0.3s;
+    transition: linear background-color 0.2s;
+}
+#menu .side_menu ul li a:hover{
+    color: #333;
+    background-color: #fff;
+}
+#menu .side_menu ul li a.active{
+    color: #333;
+    background-color: #fff;
+}
+#menu .side_menu li .dropmenu{
+    height: 0px;
+    padding-top: 0;
+    overflow: hidden;
+    padding-left: 20px;
+    transition: linear height 0.5s;
+}
+#menu .side_menu .drop:hover .droptatu{
+    height: 130px;
+}
+#menu .side_menu .drop:hover .dropmbili{
+    height: 85px;
+}
+/*icon color*/
+#menu .fa-home{
+    color: skyblue;
+}
+#menu .fa-shopping-cart{
+    color: darkorange;
+}
+#menu .fa-tags{
+    color: #e0c11c;
+}
+#menu .fa-retweet{
+    color:#179c17;
+}
+#menu .fa-male{
+    color: #ff00e3;
+}
+#menu .fa-cogs{
+    color: #a500ff;
+}
+#menu .fa-power-off{
+    color:red;
+}

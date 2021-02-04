@@ -1,0 +1,40 @@
+.body #details{
+    padding: 20px;
+    padding-bottom: 130px;
+    box-shadow: 0px 0px 10padd_userx #ccc;
+}
+
+.text-danger{
+    color: #a00000;
+}
+.bg-danger{
+    color: #fff;
+    background-color: #a00000;
+}
+.btn-danger{
+    color: #fff;
+    border:none;
+    background-color: #a00000;
+}
+#dash .body{
+    height: 95vh;
+    overflow: hidden;
+}
+
+#chg_pass{
+    padding: 20px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px #bbb;
+}
+#add-user{
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px #bbb;
+}
+#details{
+    
+}
+#staffs,#clients{
+    height: 88vh;
+    overflow: auto!important;
+}

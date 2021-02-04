@@ -1,0 +1,16 @@
+#orders_section .body .table-data{
+    height: 500px;
+    overflow: auto;
+    padding: 10px;
+}
+#orders_section .body .table-data table tr img{
+    width: 30px;
+    height: 30px;
+}
+#orders_section .body .table-data{
+    height: 500px;
+    overflow: auto;
+}
+#orders_section .body h4 a{
+    color: white;
+}

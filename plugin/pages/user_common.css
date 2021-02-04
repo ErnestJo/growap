@@ -1,0 +1,78 @@
+#orders_section{
+    margin-top:65px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #333;
+}
+#orders_section .menu{
+    color: #222;
+    padding: 0;
+    height: 550px;
+    background-color: #ccc;
+}
+#orders_section .menu li .dropmenu{
+    height: 0px;
+    overflow: hidden;
+    padding-left: 20px;
+    transition: linear height 0.5s;
+}
+#orders_section .menu .drop:hover .dropmenu{
+    height: 125px;
+}
+#orders_section .menu li .dropmenu1{
+    height: 0px;
+    overflow: hidden;
+    padding-left: 20px;
+    transition: linear height 0.5s;
+}
+#orders_section .menu .drop:hover .dropmenu1{
+    height: 85px;
+}
+#orders_section .menu ul{
+    list-style: none;
+    padding-left: 0px;
+}
+#orders_section .menu ul li{
+    padding-left: 0;
+}
+#orders_section .menu ul li a{
+    color: #333;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #aaa;
+}
+#orders_section .menu ul li a:hover{
+    background-color: white;
+}
+#orders_section .menu ul li.active a{
+    background-color: white;
+}
+#orders_section ul li.blue a:hover,#orders_section ul li.blue.active a{
+    color: #27c0ff;
+}
+#orders_section ul li.yellow a:hover,#orders_section ul li.yellow.active a{
+    color: #f3cd00;
+}
+#orders_section ul li.green a:hover,#orders_section ul li.green.active a{
+    color: #02d602;
+}
+
+#orders_section .body{
+    padding: 0;
+    height: 550px;
+    padding-left: 1px;
+    padding-right: 0px; 
+}
+#orders_section .body .table-data{
+    height: 500px;
+    overflow: auto;
+}
+#orders_section h4{
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+    background-color: #a00000;
+    border-bottom: 2px solid #aaa;
+}

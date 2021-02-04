@@ -1,0 +1,190 @@
+#intro{
+    margin-top: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fff;
+}
+#myCarousel img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+#intro ul{
+    padding-left: 0px;
+    list-style: none;
+}
+#intro ul li{
+    padding-bottom: 10px;
+}
+#intro ul li a{
+    color: #aaa;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: linear color 0.3s;
+    transition: linear padding-left 0.3s;
+}
+#intro ul li a:hover{
+    color: #ff0000;
+    padding-left: 5px;
+}
+#intro h4{
+    margin: 0;
+}
+
+#welcome{
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+#welcome h1{
+    color: #a00000;
+}
+#welcome h4{
+    color: #ff4343;
+}
+
+
+
+/*.products{
+    margin-top: 15px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 2px solid #a00000;
+    background-color: #fff;
+}
+.products .col-md-2{
+    padding: 5px;
+    margin-top: 0;
+    padding-top: 0!important;
+}*/
+/*
+.products .card{
+    background-color: #fff;
+}
+.products .card img{
+    padding: 10px;
+    height: 125px;
+    object-fit: contain;
+    border-bottom: 1px solid #eee;
+}
+.products .card p{
+    font-size: small;
+}*/
+
+
+#about{
+    padding: 20px;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #fff;
+}
+#about p b{
+    color: #ff5252;
+}
+#why{
+    padding: 20px;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #fff;
+}
+#why .media-left i{
+    color: #ff5252;
+    font-size: 50px;
+}
+#why .media-body h4{
+    color: #a00000;
+}
+#why .media-body p{
+    font-size: small;
+}
+
+#newNav a{
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+#lev1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+#lev1 .col-md-9 .row .col-md-3{
+    padding-left: 0px;
+    padding-right: 15px;
+}
+#lev1 .col-md-9 .row{
+    padding-left: 15px;
+}
+#lev1 h4{
+    color: #aa5612;
+    margin:0;
+    padding: 10px;
+    box-shadow: 0px 0px 5px #aaa;
+    text-shadow: 0px 0px 1px #ddd;
+    border-bottom: 3px solid #aa5612;
+    background-color: #fff;
+}
+#lev1 a{
+    color: #333;
+    cursor: pointer;
+    text-decoration: none; 
+}
+#lev1 a:hover{
+    box-shadow: 0px 0px 30px #aaa;
+}
+#lev1 .btn-warning{
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    bottom: 5px;
+    position: relative;
+    text-shadow: 0px 0px 10px #000;
+    text-decoration: none;
+    background-color: #aa5612; 
+}
+
+#lev1 .properties .card{
+    height:297px;
+    margin-top: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #aaa;
+    background-color: white;
+}
+#lev1 .properties img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-bottom: 2px solid #aa5612;
+    transition: linear filter 0.3s;
+}
+#lev1 .card_box{
+    padding: 10px;
+    transition: linear border 0.3s;
+}
+#lev1 .price{
+    font-size: large;
+}
+
+#lev1 .side{
+    padding-left: 0;
+}
+#lev1 .side .col-md-12{
+    margin-top: 10px; 
+}
+#lev1 .other-properties{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#lev1 .other-properties .properties{
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #aaa;
+}
+
+
+
