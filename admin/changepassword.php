@@ -25,30 +25,30 @@
 <?php
 include 'includes/navigation.php';
 include 'includes/dashboard.php';
-
-
 if(!is_loggedin()){
         login_error_redirect();
     }
-
-if(isset($_GET['user']) && $_GET['user'] !=''){
-  $id = $_GET['user'];
-
-
-    
-
+$hashed = $userdata['password'];
+$old_password = ((isset($_POST['old_password']))?clean($_POST['old_password']):'');
+$old_password = trim($old_password);
 $password = ((isset($_POST['password']))?clean($_POST['password']):'');
 $password = trim($password);
 $confirm = ((isset($_POST['confirm']))?clean($_POST['confirm']):'');
 $confirm = trim($confirm);
 $new_hashed = password_hash($password,PASSWORD_DEFAULT);
+$user_id = $userdata['id'];
 $errors  = array();
 
         if ($_POST) {
             //form validation
-            
+            if (empty($_POST['old_password']) || empty($_POST['password']) || empty($_POST['confirm'])) {
+                $errors[] = 'You must fill all fields';
+            }
+                elseif (!Password_verify($old_password,$hashed)) {
+                    $errors[] = 'Incorrect Old password!. Please try again';
+                }
             //check if password is more than 6 characters
-                if (strlen($password) < 6) {
+                elseif (strlen($password) < 6) {
                     $errors[] = 'Password too short, must be atleast 6 characters';
                 }
 
@@ -58,10 +58,9 @@ $errors  = array();
                 }
                 else{
                     //change password
-                    $db->query("UPDATE users SET password = '$new_hashed' WHERE id = '$id'");
-                    $_SESSION['success'] = 'Password has been changed succesifully';
-                   echo "<script>window.location.replace('users.php');</script>";
-                
+                    $db->query("UPDATE users SET password = '$new_hashed' WHERE id = '$user_id'");
+                    $_SESSION['success'] = 'Your password has been changed succesifully';
+                    header('Location: index.php');
                 }
         }
 ?>
@@ -71,8 +70,10 @@ $errors  = array();
             <div class="col-md-4 col-md-offset-4" id="chg_pass">
                     <h4 class="text-center text-danger">CHANGE PASSWORD</h4>
                     <hr>
-                    <form action="changepass.php?user=<?= $id;?>" method="post">
-        
+                    <form action="changepassword.php" method="post">
+        <div class="form-group">
+            <input type="password" placeholder="Old Password" name="old_password" id="old_password" class="form-control" value="<?=$old_password;?>">
+        </div>
         <div class="form-group">
             <input type="password" name="password" placeholder="New Password" id="password" class="form-control" value="<?=$password ;?>">
         </div>
@@ -102,4 +103,3 @@ $errors  = array();
 </body>
 
 </html>
-<?php } ;?>
