@@ -56,8 +56,8 @@ include 'includes/dashboard.php';
                                     <th class="text-center">ACTION</th>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">Abushirie Yusuf</td>
-                                    <td class="text-center">0718248525</td>
+                                    <td class="text-center">Ernest Joseph</td>
+                                    <td class="text-center">0710663944</td>
                                     <td class="text-center">18-Nov-2018</td>
                                     <td class="text-center">PENDING</td>
                                     <td class="text-center">
@@ -108,9 +108,9 @@ include 'includes/dashboard.php';
                                     <th class="text-center">ACTION</th>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">Abushirie Yusuf</td>
-                                    <td class="text-center">0718248525</td>
-                                    <td class="text-center">12-Oct-2019</td>
+                                <td class="text-center">Ernest Joseph</td>
+                                    <td class="text-center">0710663944</td>
+                                    <td class="text-center">18-Nov-2018</td>
                                     <td class="text-center">PENDING</td>
                                     <td class="text-center">
                                         <form class="form-group-sm">

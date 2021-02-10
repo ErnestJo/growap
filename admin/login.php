@@ -97,7 +97,7 @@ include'../includes/config.php';
 
     <div class="col-md-4 col-md-offset-4">
         <div class="container-fluid" id="login">
-        <h3 class="text-center">LOGIN TO GROWAP  DASHBOARD</h3>
+        <h3 class="text-center">LOGIN TO SOKONI  DASHBOARD</h3>
         
         <div><?php if(!empty($errors)){echo show_errors($errors);};?></div>
 

@@ -83,7 +83,7 @@ $sqld = $db->query ("SELECT * FROM product,customer,cart
                                 <tr>
                                     <td class="text-center"><?=ucwords($cart['fullname']);?></td>
                                     <td class="text-center">(+255) <?=$cart['phone'];?></td>
-                                    <td class="text-center">MBWENI</td>
+                                    <td class="text-center">KIMARA</td>
                                     <td class="text-center">
                                         <?php
 

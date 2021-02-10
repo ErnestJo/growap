@@ -34,7 +34,7 @@ include 'includes/dashboard.php';
 ?>
         <div class="col-md-9 body">
             <h3>
-                Aboushire Yusuf's Order Item(s) 
+                Ernest Joseph's Order Item(s) 
                 <a href="order_recieved.html" class="pull-right btn btn-sm btn-info">BACK</a>
             </h3>
             <hr>
@@ -42,15 +42,15 @@ include 'includes/dashboard.php';
                 <div class="col-md-12">
                     <dl class="col-md-6">
                         <dt>CUSTOMER NAME</dt>
-                            <dd>Abushirie Yusuf</dd>
+                            <dd>Ernest Joseph</dd>
                         <dt>LOCATION</dt>
-                            <dd>Mbweni</dd>
+                            <dd>Kimara</dd>
                         <dt>PHONE NUMBER</dt>
-                            <dd>0718248525</dd>
+                            <dd>0710663944</dd>
                     </dl>
                     <dl class="col-md-6">
                         <dt>EMAIL</dt>
-                            <dd>Ronalabou@gmail.com</dd>
+                            <dd>Ernestjoju@gmail.com</dd>
                         <dt>ORDER ID</dt>
                             <dd>1232785</dd>
                         <dt>PRICE</dt>

@@ -50,8 +50,7 @@ $sql = $db->query ("SELECT * FROM product,customer,cart
                         <th class="text-center">ORDER PRICE</th>
                         <th class="text-center">ORDER STATUS</th>
                         <th class="text-center">SUPERMARKET PHONE</th>
-                        <!-- <th class="text-center">DELIVERY TYPE</th>
-                        <th class="text-center">DELIVERED</th> -->
+                        
                         <th class="text-center">ACTION</th>
                     </tr>
                     <?php while ( $cart = mysqli_fetch_assoc($sql)): ?>
@@ -60,8 +59,7 @@ $sql = $db->query ("SELECT * FROM product,customer,cart
                         <td class="text-center">12000</td>
                         <td class="text-center">PENDING</td>
                         <td class="text-center"><?=$cart['orderid'];?></td>
-                        <!-- <td class="text-center">HANDPICKUP</td>
-                        <td class="text-center">NO</td> -->
+                       
                         <td class="text-center">
                             <a  href="orderedit.php" class="btn btn-sm btn-info"><i class="ti-pencil-alt"></i></a> |
                             <a  href="orderview.php?order=<?= $cart['orderid'];?>" class="btn btn-sm btn-success"><i class="fa fa-eye"></i></a> | 
