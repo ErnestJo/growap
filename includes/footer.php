@@ -15,7 +15,7 @@ require_once 'includes/config.php';
                 <i class="fa fa-desktop"></i> sokoni@gmail.com |
                 <i class="fa fa-university"></i>UDSM
             </p>
-            <p>&copy; Copyright SOKONI 2019</p>
+            <p>&copy; Copyright SOKONI 2020</p>
             </center>
         </div>
     </div>
@@ -23,7 +23,7 @@ require_once 'includes/config.php';
 <div class="container" id="brand">
     <div class="row">
         <div class="col-md-12 text-center">
-        <a href="" target="_blank" id="me">Website by Pricsa And Nesty</a>
+            <a href="" target="_blank" id="me">Website by Group five </a>
         </div>
     </div>    
 </div>
