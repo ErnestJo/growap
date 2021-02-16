@@ -261,7 +261,7 @@ $ad2 = mysqli_fetch_assoc ($sqlads2);
                 <i class="fa fa-desktop"></i> sokoni@gmail.com |
                 <i class="fa fa-university"></i> UDSM
             </p>
-            <p>&copy; Copyright SOKONI 2019</p>
+            <p>&copy; Copyright SOKONI 2020</p>
             </center>
         </div>
     </div>
