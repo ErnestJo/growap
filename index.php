@@ -205,7 +205,7 @@ $ad2 = mysqli_fetch_assoc ($sqlads2);
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <p class="text-center">
-                <b>"SOKONI"</b> is Manage by Prisca. We recognizes the importance of E-market we have provide a bridge between customers and market . So that to make market items accessible easily. 
+                <b>"SOKONI"</b> is Manage by Sokoni ltd.. We recognizes the importance of E-market we have provide a bridge between customers and market . So that to make market items accessible easily. 
             </p>
         </div>
     </div>
@@ -261,7 +261,7 @@ $ad2 = mysqli_fetch_assoc ($sqlads2);
                 <i class="fa fa-desktop"></i> sokoni@gmail.com |
                 <i class="fa fa-university"></i> UDSM
             </p>
-            <p>&copy; Copyright SOKONI 2020</p>
+            <p>&copy; Copyright SOKONI 2021</p>
             </center>
         </div>
     </div>
@@ -269,7 +269,7 @@ $ad2 = mysqli_fetch_assoc ($sqlads2);
 <div class="container" id="brand">
     <div class="row">
         <div class="col-md-12 text-center">
-        <a href="" target="_blank" id="me">Website by PRISCA AND NES</a>
+        <a href="" target="_blank" id="me">Website by group five</a>
         </div>
     </div>    
 </div>
