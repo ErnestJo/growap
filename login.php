@@ -154,7 +154,7 @@ include'includes/config.php';
                 <i class="fa fa-desktop"></i> Growap@gmail.com |
                 <i class="fa fa-university"></i> CoICT - UDSM
             </p>
-            <p>&copy; Copyright GROWAP 2018</p>
+            <p>&copy; Copyright GROWAP 2021</p>
             </center>
         </div>
     </div>
