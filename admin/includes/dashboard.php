@@ -69,7 +69,7 @@ $order = mysqli_fetch_assoc($sql);
                     <li><a href="logout.php"> <i class="ti-power-off"></i> Logout </a></li>
                 </ul>
                 <ul>
-                    <address class="text-center">&copy; Copyright SOKONI 2019</address>
+                    <address class="text-center">&copy; Copyright SOKONI 2021</address>
                 </ul>
             </div>
         </div>
